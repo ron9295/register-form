@@ -1,0 +1,118 @@
+
+.board {
+  border: 1px solid rgb(76, 169, 241);
+  display: flex;
+  min-height: 97vh;
+  min-width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.board-in {
+  border: 1px solid rgb(76, 169, 241);
+  min-height: 60vh;
+  min-width: 30vw;
+  box-shadow: 5px 5px 0px gray;
+  border-radius: 10px;
+}
+
+.register-border {
+  margin-right: auto;
+  margin-left: auto;
+  width: 500px;
+  margin-top: 20px;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  padding-bottom: 2vh;
+}
+
+.register-header {
+  display: inline;
+}
+
+.register-span {
+  margin-left: 9vw;
+}
+
+.login-link {
+  margin-left: 2px;
+  text-decoration: none;
+  color: rgb(76, 169, 241);
+}
+
+.input-label {
+  padding-top: 30px;
+}
+
+.labelClass {
+  margin-left: 7px;
+  background-color:white;
+  color: rgb(138, 173, 180);
+}
+
+#no_match {
+  visibility: hidden;
+  margin-left: 16vw;
+  background-color: red;
+  color: white;
+  font-size: 1em;
+}
+
+.in {
+  margin-top: -8px;
+  display:block;
+  border: 1px solid rgb(76, 169, 241);
+  height: 35px;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.in:focus {
+outline:none;
+}
+
+#to_appear{
+  visibility:hidden;
+  background-color:white;
+  color: rgb(138, 173, 180);
+}
+#button_to_show_pass {
+  margin-top: 1vh;
+  border: 1px solid rgb(76, 169, 241);
+  background-color: rgb(76, 169, 241);
+  color: white;
+}
+
+.reg-div {
+  text-align: center;
+}
+
+.Cbutton::before {
+margin-right: 5px;
+font-family: "Font Awesome 5 Free";
+font-weight: 900;
+content: "\f5eb";
+display:inline-block;
+font-style: normal;
+font-variant: normal;
+text-rendering: auto;
+-webkit-font-smoothing: antialiased;
+}
+.Cbutton {
+  display: block;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  border: 1px solid rgb(76, 169, 241);
+  height: 40px;
+  width: 25vw;
+  border-radius: 4px;
+  background-color: rgb(76, 169, 241);
+  color: white;
+}
+
+.reg-div a {
+  text-decoration: none;
+  color: rgb(76, 169, 241);
+}

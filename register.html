@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>display testeing</title>
+  <link rel="stylesheet" href="register.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <div class="board">
+
+    <div class="board-in">
+      <div class="register-border">
+
+        <div>
+          <h1 class="register-header" id="titleH1">Register</h1>
+          <span class="register-span">Already have an account</span>
+          <a href="https://www.google.co.il/?hl=iw" class="login-link">Login</a>
+        </div>
+
+        <form class="input-label">
+          <label class="labelClass">Name*</label>
+          <input type="text" class="in" id="user">
+          <br>
+          <label class="labelClass">Email*</label>
+          <input type="email" class="in" id="email">
+          <br>
+          <label class="labelClass" id="label_pass">Passward*</label>
+          <input type="password" class="in" id="passward">
+          <br>
+          <label class="labelClass" id="label_val_pass">Validate Passward<span id="to_hide">*</span></label><span id="to_appear">is not the same*</span>
+          <input type="password" class="in" id="validatePassward">
+          <button type="button" name="button" id="button_to_show_pass" onclick="showAndHide()">show passwards</button>
+          <br>
+          <button type="button" name="button" class="Cbutton" value="Register" onclick="collect1()">Register</button>
+        </form>
+        <div class="reg-div">
+          <a href="#">Forgot your passward</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="register.js" type="text/javascript"></script>
+</body>
+
+</html>
